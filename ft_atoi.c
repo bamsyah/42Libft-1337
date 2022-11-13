@@ -6,7 +6,7 @@
 /*   By: bamsyah <bamsyah@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/21 16:11:17 by bamsyah           #+#    #+#             */
-/*   Updated: 2022/11/07 04:03:16 by bamsyah          ###   ########.fr       */
+/*   Updated: 2022/11/13 06:35:22 by bamsyah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,9 +37,3 @@ int	ft_atoi(const char *str)
 	}
 	return (x * signe);
 }
-/*int main ()
-{
-	char s[] = "-+214564";
-	printf("%d\n", ft_atoi(s));
-	printf("%d", atoi(s));
-}*/

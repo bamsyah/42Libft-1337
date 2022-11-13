@@ -6,7 +6,7 @@
 /*   By: bamsyah <bamsyah@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 09:47:56 by bamsyah           #+#    #+#             */
-/*   Updated: 2022/11/10 05:05:59 by bamsyah          ###   ########.fr       */
+/*   Updated: 2022/11/13 06:34:33 by bamsyah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,3 @@ char	*ft_strchr(const char *s, int c)
 	}
 	return (NULL);
 }
-/*int main ()
-{
-	char s[] = "aaa";
-	//printf("%s\n", ft_strchr(s, '3'));
-	printf("%s\n", ft_strchr(s, (void *)0));
-}
-*/

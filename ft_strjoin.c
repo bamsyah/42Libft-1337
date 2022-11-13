@@ -6,7 +6,7 @@
 /*   By: bamsyah <bamsyah@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 21:38:48 by bamsyah           #+#    #+#             */
-/*   Updated: 2022/11/08 04:45:04 by bamsyah          ###   ########.fr       */
+/*   Updated: 2022/11/13 06:34:06 by bamsyah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(str, s2, len + 1);
 	return (str);
 }
-/*int main ()
-{
-	char *s1 = NULL;
-	char *s2 = NULL;
-	printf("%s", ft_strjoin(s1, s2));
-}*/

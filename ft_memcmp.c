@@ -6,7 +6,7 @@
 /*   By: bamsyah <bamsyah@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/23 20:00:14 by bamsyah           #+#    #+#             */
-/*   Updated: 2022/11/07 04:10:53 by bamsyah          ###   ########.fr       */
+/*   Updated: 2022/11/13 06:34:56 by bamsyah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,11 +31,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-/*int main ()
-{
-    char s1[] = "1337";
-    char s2[] = "1338";
-    printf("%d\n", ft_memcmp(s1, s2, 4));
-    printf("%d", memcmp(s1, s2, 4));
-}*/

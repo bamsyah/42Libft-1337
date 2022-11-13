@@ -6,7 +6,7 @@
 /*   By: bamsyah <bamsyah@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 13:29:54 by bamsyah           #+#    #+#             */
-/*   Updated: 2022/11/07 04:22:57 by bamsyah          ###   ########.fr       */
+/*   Updated: 2022/11/13 06:33:56 by bamsyah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,3 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
-/*int main ()
-{
-	char s[] = "1337";
-	printf("%zu\n", ft_strlen(s));
-	printf("%zu", strlen(s));
-}*/

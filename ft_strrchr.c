@@ -6,7 +6,7 @@
 /*   By: bamsyah <bamsyah@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 10:05:50 by bamsyah           #+#    #+#             */
-/*   Updated: 2022/11/10 05:08:32 by bamsyah          ###   ########.fr       */
+/*   Updated: 2022/11/13 06:33:42 by bamsyah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (0);
 }
-/*int main ()
-{
-	char s[] = "1337";
-	//printf("%s\n", ft_strrchr(s, '3'));
-	printf("%s", strrchr(s, '3'));
-
-}*/

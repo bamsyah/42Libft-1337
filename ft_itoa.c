@@ -6,7 +6,7 @@
 /*   By: bamsyah <bamsyah@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 04:48:37 by bamsyah           #+#    #+#             */
-/*   Updated: 2022/11/10 04:45:43 by bamsyah          ###   ########.fr       */
+/*   Updated: 2022/11/13 06:35:05 by bamsyah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ char	*ft_itoa(int n)
 	if (!str)
 		return (NULL);
 	str[i] = 0;
-		i--;
+	i--;
 	if (nb == 0)
 		str[i] = 48;
 	if (nb < 0)
@@ -60,9 +60,3 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
-/*int main ()
-{
-	char *str;
-	str = ft_itoa(123456);
-	printf("%s", str);
-}*/
